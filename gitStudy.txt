@@ -6,6 +6,7 @@
 2. 폴더를 git이 관리하는 폴더로 만들기
 	git init
 	git checkout -b main : main브랜치를 만들어서 해당 브랜치로 이동
+<<<<<<< HEAD
 	git status : 현재 상태 확인
 3. 파일을 생성하고 add, commit 해보기
 	git add : 변경이 있었던 파일을 staging area에 추가
@@ -25,3 +26,6 @@
 		reset을 하면 내역을 되돌리기 떄문에 , log명령어로 commit id 를 볼 수 없다.
 	git reflog : 모든 내역을 확인, reflog를 사용해서 모든 commit id 확인 가능
 	
+=======
+	git status : 현재 상태 확인
+>>>>>>> parent of cccfd69 ([B] 파일수정하고 commit 하기)
